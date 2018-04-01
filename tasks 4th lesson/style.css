@@ -1,0 +1,11 @@
+.yellow {
+	font-weight: bold;
+	background-color: yellow;
+	border: 1px solid black;
+}
+
+.blue {
+	background-color: blue;
+	color: yellow;
+	border: 1px solid black;
+}
