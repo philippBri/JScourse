@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Validator</title>
+ </head>
+ <body>
+ 	Name <input type="input" id="name" onblur="validateName(this)">
+ 	Phone <input type="input" id="phone" onblur="validatePhone(this)">
+ 	Email <input type="input" id="email" onblur="validateEmail(this)">
+ 	WebAddress <input type="input" id="address" onblur="validateAddress(this)">
+ 	Age <input type="input" id="age" onblur="validateAge(this)">
+ 	<button type="button" onclick="validateAll()">Validate</button>
+ 	<p id="errors"></p>
+ </body> 
+  <script type="text/javascript" src="fifthTask.js"></script>
+</html>
